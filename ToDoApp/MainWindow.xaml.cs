@@ -20,5 +20,15 @@ namespace ToDoApp
         {
             InitializeComponent();
         }
+
+        private void buttonAddTask_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void buttonRemoveTask_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

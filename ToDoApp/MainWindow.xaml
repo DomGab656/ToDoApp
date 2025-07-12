@@ -52,6 +52,10 @@
             <TextBox x:Name="inputTaskBox" Grid.Row="3" Grid.Column="2" Margin="10,0,10,10"/>
             <Label Content="Deadline (optional):" Margin="10,0,225,0"/>
             <TextBox x:Name="deadLineBox" Grid.Row="3" Grid.Column="2" Margin="10,0,10,10"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="buttonAddTask" Click="buttonAddTask_Click" Margin="10,0" Height="40" Width="175">Add Task</Button>
+                <Button x:Name="buttonRemoveTask" Click="buttonRemoveTask_Click" Margin="10,0" Height="40" Width="175">Remove Task</Button>
+            </StackPanel>
         </StackPanel>
         <Label Grid.Row="1" Grid.Column="2" Content="INFO" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
 
