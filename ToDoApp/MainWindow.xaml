@@ -62,7 +62,7 @@
         </StackPanel>
         <Label Grid.Row="1" Grid.Column="2" Content="INFO" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
 
-        <Label x:Name="currentTimeDate" Grid.Column="2" Grid.Row="3" FontSize="18" HorizontalContentAlignment="Center" FontFamily="Impact" Content="test 123"/>
+        <Label x:Name="currentTimeDate" Grid.Column="2" Grid.Row="3" FontSize="18" HorizontalContentAlignment="Center" FontFamily="Impact"/>
 
     </Grid>
 </Window>
