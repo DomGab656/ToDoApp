@@ -28,17 +28,17 @@
         <Rectangle Grid.Row="4" Grid.Column="1" Fill="Beige"/>
 
         <Label Grid.Row="1" Content="To Do" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
-        <ListBox Grid.Row="2" x:Name="todolist">
+        <ListBox Grid.Row="2" x:Name="todolist" Margin="2">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text=""/>
+                        <TextBlock Text="{Binding contentTask}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
         <Label Grid.Row="3" Content="Finished" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
-        <ListBox Grid.Row="4" x:Name="finlist">
+        <ListBox Grid.Row="4" x:Name="finlist" Margin="2">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
