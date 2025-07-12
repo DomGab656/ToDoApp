@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoApp"
         mc:Ignorable="d"
-        Title="To-Do App ver. 0.1" Height="500" Width="800">
+        Title="To-Do App ver. 0.1.1" Height="500" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -48,7 +48,10 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <StackPanel Grid.Row="4" Grid.Column="2" Margin="0,50,0,0">
-            <Label Content="Add task:" Margin="10,0,225,0" />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Add task:" Margin="10,0,150,0" />
+                <CheckBox x:Name="checkImportant" Content="Very Important Task" Margin="0,5,0,0"/>
+            </StackPanel>
             <TextBox x:Name="inputTaskBox" Grid.Row="3" Grid.Column="2" Margin="10,0,10,10"/>
             <Label Content="Deadline (optional):" Margin="10,0,225,0"/>
             <TextBox x:Name="deadLineBox" Grid.Row="3" Grid.Column="2" Margin="10,0,10,10"/>
@@ -58,6 +61,8 @@
             </StackPanel>
         </StackPanel>
         <Label Grid.Row="1" Grid.Column="2" Content="INFO" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
+
+        <Label x:Name="currentTimeDate" Grid.Column="2" Grid.Row="3" FontSize="18" HorizontalContentAlignment="Center" FontFamily="Impact" Content="test 123"/>
 
     </Grid>
 </Window>
