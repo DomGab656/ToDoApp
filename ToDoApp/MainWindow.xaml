@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoApp"
         mc:Ignorable="d"
-        Title="To-Do App ver. 0.1.1" Height="500" Width="800">
+        Title="To-Do App ver. 0.1.1" Height="500" Width="800"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -37,6 +38,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        
         <Label Grid.Row="3" Content="Finished" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
         <ListBox Grid.Row="4" x:Name="finlist" Margin="2">
             <ListBox.ItemTemplate>
@@ -47,7 +49,8 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Row="4" Grid.Column="2" Margin="0,50,0,0">
+        
+        <StackPanel Grid.Row="4" Grid.Column="1" Margin="0,50,0,0">
             <StackPanel Orientation="Horizontal">
                 <Label Content="Add task:" Margin="10,0,150,0" />
                 <CheckBox x:Name="checkImportant" Content="Very Important Task" Margin="0,5,0,0"/>
@@ -60,8 +63,29 @@
                 <Button x:Name="buttonRemoveTask" Click="buttonRemoveTask_Click" Margin="10,0" Height="40" Width="175">Remove Task</Button>
             </StackPanel>
         </StackPanel>
+        
         <Label Grid.Row="1" Grid.Column="2" Content="INFO" Foreground="White" FontSize="16" FontWeight="ExtraBold" HorizontalContentAlignment="Center"/>
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Selected Task:" Margin="0"/>
+                <Label x:Name="selectedTaskLabel" Margin="5,0,5,0"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Deadline:" Margin="0"/>
+                <Label x:Name="deadlineTaskLabel" Margin="5,0,5,0"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Task Description:" Margin="0"/>
+                <TextBox x:Name="taskDescriptionBox" Margin="5,10,5,0" Width="260" Height="60" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"/>
+            </StackPanel>
 
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="finishTaskButton" Content="FINISH TASK" Margin="0,20" Width="370" Height="35" FontSize="16" FontWeight="ExtraBold"/>
+            </StackPanel>
+        </StackPanel>
+        
         <Label x:Name="currentTimeDate" Grid.Column="2" Grid.Row="3" FontSize="18" HorizontalContentAlignment="Center" FontFamily="Impact"/>
 
     </Grid>
