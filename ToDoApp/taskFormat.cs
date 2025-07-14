@@ -20,6 +20,8 @@ namespace ToDoApp
 
         public string? timeOfCreation { get; set; }
         public string? timeLeft { get; set; }
+        public string? deadlineTimeAndDate { get; set; }
+        public string? descriptionTask { get; set; }
         public bool? finishedTask { get; set; }
 
 

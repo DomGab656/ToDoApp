@@ -54,7 +54,12 @@ namespace ToDoApp
 
         private void buttonRemoveTask_Click(object sender, RoutedEventArgs e)
         {
+            var removeItemSelected = todolist.SelectedItems.Cast<taskItem>().ToList();
 
+            foreach (var item in removeItemSelected)
+            {
+                taskActive.Remove(item);
+            }
         }
     }
 }
