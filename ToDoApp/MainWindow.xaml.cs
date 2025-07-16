@@ -126,6 +126,7 @@ namespace ToDoApp
             {
                 selectedTaskLabel.Content = selectedTask.contentTask;
                 deadlineTaskLabel.Content = selectedTask.deadlineTimeAndDate;
+                createdTaskLabel.Content = selectedTask.timeOfCreation;
                 taskDescriptionBox.Text = selectedTask.taskDescription;
             }
             else
@@ -133,6 +134,7 @@ namespace ToDoApp
                 // Clear when nothing is selected
                 selectedTaskLabel.Content = "";
                 deadlineTaskLabel.Content = "";
+                createdTaskLabel.Content = "";
                 taskDescriptionBox.Text =  "";
             }
 

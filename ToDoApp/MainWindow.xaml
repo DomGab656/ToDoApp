@@ -84,6 +84,8 @@
 
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="buttonFinishTask" Click="buttonFinishTask_Click" Content="FINISH TASK" Margin="0,20" Width="370" Height="35" FontSize="16" FontWeight="ExtraBold"/>
+                <Label Content="Time created:" Margin="-300,0,5,0"/>
+                <Label x:Name="createdTaskLabel" Margin="-220,0,5,0" Width="auto"/>
             </StackPanel>
         </StackPanel>
         
