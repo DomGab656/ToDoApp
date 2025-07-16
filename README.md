@@ -7,7 +7,6 @@ Funktionen (geplant)
 - Datum und Uhrzeit wann die Tasks hinzugefügt wurden
 - Tasks als wichtig markieren
 - Tasks Beschreibungen vergeben
-- Deadlines für Tasks
 - Tasks entfernen
 - Tasks Fertigstellen
 
