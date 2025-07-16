@@ -4,25 +4,22 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Media;
 
 namespace ToDoApp
 {
     public class taskItem : INotifyPropertyChanged
     {
-
         public bool isNew { get; set; }
-        public bool isImportantChecked { get; set; }
         public bool isImportantColor { get; set; }
-        public int timeRemain { get; set; }
         public string? contentTask {  get; set; }
         public Brush? importantColor { get; set; }
+        public Brush? importantBackgroundColor { get; set; }
 
         public string? timeOfCreation { get; set; }
-        public string? timeLeft { get; set; }
         public string? deadlineTimeAndDate { get; set; }
-        public string? descriptionTask { get; set; }
-        public bool? finishedTask { get; set; }
+        public string? taskDescription { get; set; }
 
 
         public event PropertyChangedEventHandler PropertyChanged;
