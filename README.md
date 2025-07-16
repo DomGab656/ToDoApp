@@ -8,15 +8,14 @@ Funktionen (geplant)
 - Tasks als wichtig markieren
 - Tasks Beschreibungen vergeben
 - Deadlines für Tasks
-- Farbcoding von Tasks basierend auf verbliebene Zeit
 - Tasks entfernen
 - Tasks Fertigstellen
 
 --------------------------------------------------------------------------
 
-Changelog
+Changelog v0.1.9
 --------------------------------------------------------------------------
 
-- bisher keine funktion, nur UI elemente
+- steuerung hinzugefügt
 
 __________________________________________________________________________
