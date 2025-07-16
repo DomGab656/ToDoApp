@@ -1,4 +1,4 @@
-Das hier ist mein eigener selbstständig gemachter To-Do App. Ich habe diesen App gemacht um die basics von GitHub und WPF zu lernen, meine kenntnisse in C# zu vertiefen.
+Das hier ist mein eigener selbstständig gemachter To-Do App. Ich habe diesen App gemacht um die basics von git und WPF zu lernen, meine kenntnisse in C# zu vertiefen.
 
 Funktionen (geplant)
 --------------------------------------------------------------------------
@@ -7,16 +7,14 @@ Funktionen (geplant)
 - Datum und Uhrzeit wann die Tasks hinzugefügt wurden
 - Tasks als wichtig markieren
 - Tasks Beschreibungen vergeben
-- Deadlines für Tasks
-- Farbcoding von Tasks basierend auf verbliebene Zeit
 - Tasks entfernen
 - Tasks Fertigstellen
 
 --------------------------------------------------------------------------
 
-Changelog
+Changelog v0.1.9
 --------------------------------------------------------------------------
 
-- bisher keine funktion, nur UI elemente
+- steuerung hinzugefügt
 
 __________________________________________________________________________
