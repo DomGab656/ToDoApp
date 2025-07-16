@@ -1,3 +1,5 @@
+TO-DO APP in WPF (Oldschool look)
+
 Das hier ist mein eigener selbstständig gemachter To-Do App. Ich habe diesen App gemacht um die basics von git und WPF zu lernen, meine kenntnisse in C# zu vertiefen.
 
 Funktionen
@@ -15,6 +17,6 @@ Funktionen
 Changelog v0.1.9
 --------------------------------------------------------------------------
 
-- finished up app
+- finished app
 
 __________________________________________________________________________
